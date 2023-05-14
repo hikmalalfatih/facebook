@@ -55,7 +55,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD')
+	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari Hikmal')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a=random.choice(['3','4','5','6','7','8','9','10','11','12','13'])
@@ -141,12 +141,12 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	cetak(panel(f"""[bold green]                ___  ____ ____ _   _ ____ _  _ _  _ _  _ 
-[bold green]                |__] |__/ |__|  \_/  |___ |\ | |\ | |\ | 
-[bold green]                |__] |  \ |  |   |   |___ | \| | \| | \|                                                                                                        
+[bold green]                |_| | |/ |\/|   /_\    |
+[bold green]                | | | |\ |  |  /   \   |__                             
              """,width=90,padding=(0,8),title=f"Banner",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def thr():
-	cetak(panel(f" [+] Hallo Cuy Gw Brayennn Dan Gw Mengucapkan Selamat Idul Fitri 1444 H Untukmu \n [+] Dan Semua Pengguna Termux Lainnya . Semoga Kegembiraan Hari Raya Ini Berlipat \n [+] Beribu-Ribu Kali , Mohon Maaf Lahir Batin Ya Cuy\n [+] Jangan Lupa Juga Cuy [bold green]Thr[bold white] Untuk Gw Yakan Awokawok \n [+] Dana : 089622155832 \n [+] Pulsa : 089622155832 \n [+] Thanks To All",width=90,padding=(0,2),style=f"bold white"))
+	cetak(panel(f" [+] Hallo Cuy Gw Hikmal Dan Gw Mengucapkan Selamat Idul Fitri 1444 H Untukmu \n [+] Dan Semua Pengguna Termux Lainnya . Semoga Kegembiraan Hari Raya Ini Berlipat \n [+] Beribu-Ribu Kali , Mohon Maaf Lahir Batin Ya Cuy\n [+] Jangan Lupa Juga Cuy [bold green]Thr[bold white] Untuk Gw Yakan Awokawok \n [+] Dana : 081903031378 \n [+] Pulsa : 081903031378 \n [+] Thanks To All",width=90,padding=(0,2),style=f"bold white"))
 	time.sleep(10)
 	login()
 	
@@ -319,7 +319,7 @@ def bot():
 		memek()
 	elif bray in('6','06'):
 		cetak(panel(f"Apapun Bug Pada Script Tolong Laporkan Kepada Saya Agar Bisa Mengembangkan Sc Ini Semakin Dikit Bugnya Semakin Baik Sc Ini , Anda Akan Di Arahkan Ke WhatsApp",width=90,title=f"[bold green]Report Bug",padding=(0,3),style=f"bold white"))
-		os.system("xdg-open https://wa.me/+6289622155832?text=Selamat+Pagi+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
+		os.system("xdg-open https://wa.me/+6281903031378?text=Selamat+Pagi+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
 		time.sleep(3)
 		exit()
 		
