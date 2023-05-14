@@ -20,10 +20,10 @@ pip install rich
 
 pip install mechanize
 
-git clone https://github.com/BrayennnXD/Brayennn3.1
+git clone https://github.com/hikmalalfatih/facebook
 
-cd Brayennn3.1
+cd facebook
 
 git pull
 
-python BrayennnFB.py
+python hikmalfb.py
